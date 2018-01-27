@@ -1,0 +1,20 @@
+* Webpack Static Site Generator
+** Features
+- Supports SASS
+- Pug Templating language
+- Configured for watch mode
+- Cleans /dist directory on every build
+- Webpack dev server (accessible externally using ngrok)
+- Support Tree Shaking
+- Support a webpack config per environment
+- Images and Assets are copied
+** Usage
+*** Dev Server
+    yarn start
+*** Build Production
+    yarn build
+*** Autoprefixer / Babel
+Configured for browsers with usage >1%
+Edit .babelrc or postcss.conf.js
+** Caveats
+When referencing assets in your templates make sure to including a / at the start.
