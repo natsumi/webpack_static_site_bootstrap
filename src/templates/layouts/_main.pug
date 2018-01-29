@@ -1,0 +1,11 @@
+block pageVariables
+
+// Main layout
+doctype html
+html(lang='en')
+  head
+    block head
+      title #{title}
+  body
+    block content
+    include _footer.pug
